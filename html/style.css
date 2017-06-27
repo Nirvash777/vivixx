@@ -1,0 +1,49 @@
+body
+.bg {
+background-image: transparent url("images/freethinkers.jpg");
+
+height: 100%;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+  color:#000000;
+  font-size: 50px;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+@keyframes color-change {
+0%{
+background-color: red;
+}
+20% {
+  background-color:yellow;
+}
+60% {
+  background-color:yellow;
+}
+
+100% {
+background-color: blue;
+}
+}
+
+#box {
+  animation-name: color-change;
+  animation-duration:3s;
+  animation-delay:0;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  animation-timing-function:
+  animation-fill-mode:backwards;
+
+}
+@media only screen and (min-width:320px)
+
+<div id="box1" class="boxes">
+this box number 1
+</div>
